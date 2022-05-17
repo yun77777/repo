@@ -81,18 +81,4 @@
     const loop = await func3.loop(iter);
     console.log(loop);
 
-    try {
-        if(func1.inner1 instanceof Function) {
-            func1.inner1();
-        }
-    } catch(e) {
-        console.error(err);
-    }
-
 })(window);
-
-
-const one = () =>  x => x + 1
-const two = one(1);
-
-console.log('executed one line function: ', two(1));
