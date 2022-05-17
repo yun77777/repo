@@ -44,3 +44,4 @@ Promise.all(promises).then((values) => {
 (function(){
     console.log('Immediately Invoked Function Expression, ' );
 })();
+
